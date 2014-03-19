@@ -1,4 +1,4 @@
 PythonStudy
 ===========
 
-The code inserted in the src paste were developed according to the CodeAcademy.com sequence of Python learning.
+Repository containing all source code developed during my Python language studies.
