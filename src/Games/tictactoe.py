@@ -29,3 +29,13 @@ def inputPlayerLetter():
     while not (letter == 'X' or letter == 'O'):
         print('Do you want to be X or O?')
         letter = input().upper()
+
+    # the first element in the tuple is the player's letter, the second is the computer's letter.
+    if letter == 'X':
+        return ['X', 'O']
+    else:
+        return ['O', 'X']
+
+    #---------------------------------------------------------------------------
+    #                           Input Player Letter
+    #---------------------------------------------------------------------------
