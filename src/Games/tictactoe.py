@@ -68,3 +68,17 @@ def makeMove(board, letter, move):
     #---------------------------------------------------------------------------
     #                           Make Move
     #---------------------------------------------------------------------------
+
+
+def getBoardCopy(board):
+    # Make a duplicate of the board list and return it the duplicate.
+    dupeBoard = []
+
+    for i in board:
+        dupeBoard.append(i)
+
+    return dupeBoard
+
+    #---------------------------------------------------------------------------
+    #                           Board Copy
+    #---------------------------------------------------------------------------
