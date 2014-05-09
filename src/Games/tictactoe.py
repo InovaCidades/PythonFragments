@@ -142,3 +142,14 @@ def getComputerMove(board, computerLetter):
     #---------------------------------------------------------------------------
     #                           Get Computer Move
     #---------------------------------------------------------------------------
+
+def isBoardFull(board):
+    # Return True if every space on the board has been taken. Otherwise return False.
+    for i in range(1, 10):
+        if isSpaceFree(board, i):
+            return False
+    return True
+
+    #---------------------------------------------------------------------------
+    #                           Is Board Full
+    #---------------------------------------------------------------------------
