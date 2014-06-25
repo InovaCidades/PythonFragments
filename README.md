@@ -1,7 +1,7 @@
 PythonFragments
 ===============
 
-### Tutorials:
+### Tutorials
 - [CodeAcademy](http://www.codecademy.com/tracks/python)  
 - [Python Para Zumbis](http://pycursos.com/python-para-zumbis/) 
 
